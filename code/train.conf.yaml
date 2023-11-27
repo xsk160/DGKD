@@ -1,0 +1,15 @@
+global:
+  num_layers: 2
+  hidden_dim: 128
+  
+cora: 
+  SAGE:
+    fan_out: 5,5
+    learning_rate: 0.01
+    dropout_ratio: 0
+    weight_decay: 0.0005
+
+  MLP:
+    learning_rate: 0.01
+    weight_decay: 0.005
+    dropout_ratio: 0.6
