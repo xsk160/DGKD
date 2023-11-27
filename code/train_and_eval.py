@@ -102,9 +102,6 @@ def train_mini_batch_dgkd(model, feats, labels, target, batch_size, optimizer, l
 
     total_loss = 0
 
-    """
-    decoupled know_distill
-    """
     for i in range(num_batches):
         # No graph needed for the forward function
 
